@@ -42,3 +42,9 @@ https://github.com/espressif/vscode-esp-idf-extension/blob/master/README.md
 
 # Meshtastic
 
+- Python library
+https://pypi.org/project/meshtastic/
+
+- Guide
+https://meshtastic.org/docs/development/python/library/
+
