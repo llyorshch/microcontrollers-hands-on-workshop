@@ -12,10 +12,10 @@ led.direction = digitalio.Direction.OUTPUT
 
 while True:
     led.value = True
-    pixels.fill((1, 0, 0))
-    time.sleep(0.5)
+    pixels.fill((16, 0, 8))
+    time.sleep(1.5)
     led.value = False
     pixels.fill((0, 0, 0))
-    time.sleep(0.5)
+    time.sleep(1.5)
     
 
