@@ -24,12 +24,19 @@ Notes
 -->
 
 ---
+layout: center
+---
 
-# ESP32
+# Disclaimer
 
 
-# PyBadge
+---
+layout: image
+image: /pilote-what-am-i-doing.gif
+backgroundSize: contain
+---
 
+---
 
 # Meshtastic
 
