@@ -13,7 +13,9 @@ permissions:
 concurrency:
   group: pages
   cancel-in-progress: false
-
+defaults:
+  run:
+    working-directory: ./deck
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -27,22 +29,17 @@ jobs:
 
       - name: Setup @antfu/ni
         run: npm i -g @antfu/ni
-	working-directory: ./deck
 
       - name: Install dependencies
         run: nci
-	working-directory: ./deck
 
       - name: Build
         run: nr build --base /${{github.event.repository.name}}/
-	working-directory: ./deck
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
-	working-directory: ./deck
 
       - uses: actions/upload-pages-artifact@v3
-	working-directory: ./deck
         with:
           path: dist
 
@@ -57,4 +54,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-	working-directory: ./deck
