@@ -13,12 +13,15 @@ After the presentation, we will form groups to play 🛝 with all the toys 🧸 
 
 Don't forget to bring your laptop 💻 and if you have your own microcontroller related stuff bring it as well. It would be awesome to share our experiences and experiments 🔬 .
 
-
 ## Location
 
 This event will take place at Flywire's offices in Valencia.
 
 Don’t miss it!
+
+## Presentation
+
+Slides [published](https://llyorshch.github.io/microcontrollers-hands-on-workshop) in GitHub Pages.
 
 ## Examples
 
