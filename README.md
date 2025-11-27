@@ -23,7 +23,7 @@ Don’t miss it!
 
 Slides [published](https://llyorshch.github.io/microcontrollers-hands-on-workshop) in GitHub Pages.
 
-## Examples
+## Workshop challenges
 
 ### esp32-blink-example
 
@@ -70,7 +70,29 @@ Received: Hello! 👋
 
 You can finish the executing by pressing Enter in the terminal where you executed the python file.
 
-<!-- ## Workshop BOM -->
+### Finish Level 3
+
+- Pick one of the Adafruit Pybadges
+- Connect it to something that can provide 5V with USB
+- Power on the device
+- Try to finish Level 3
+
+## BONUS Workshop Challenges
+
+### ESP32
+
+- Model traffic light using LEDs and digital I/O with GPIO ESP32
+- Control an ESP32 with an IR Remote
+- OLED Display With ESP32 - Say "Hello World!" with style
+
+### Meshtastic
+
+- Read MQTT data to track a remote device location
+
+### Pybadge
+
+- Develop ["Bouncing balls"](https://learn.adafruit.com/circuitpython-stage-game-library/bouncing-balls) with CircuitPython
+- Develop Flappy Bird with CircuitPython [Assets](https://megacrash.itch.io/flappy-bird-assets?download)
 
 
 
