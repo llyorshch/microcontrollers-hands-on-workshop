@@ -37,7 +37,9 @@ jobs:
         run: nr build --base /${{github.event.repository.name}}/
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
+	with:
+          path: ./deck
 
       - uses: actions/upload-pages-artifact@v3
         with:
