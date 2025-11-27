@@ -25,7 +25,7 @@ Slides [published](https://llyorshch.github.io/microcontrollers-hands-on-worksho
 
 ## Workshop challenges
 
-### esp32-blink-example
+### ESP32 - Blink-a-led
 
 ![blink-a-led](images/blink-a-led.jpg)
 
@@ -44,7 +44,7 @@ Don't forget to:
 - The long leg of the led goes to the signal pin. The short leg goes to the `GND` pin. 
 - ⚡ **Don't forget to connect the ground (`GND`) cable** ⚡
 
-## Meshtastic
+## Meshtastic - Message snooping
 
 ![meshtastic](images/heltecV3.jpg)
 
@@ -70,7 +70,9 @@ Received: Hello! 👋
 
 You can finish the executing by pressing Enter in the terminal where you executed the python file.
 
-### Finish Level 3
+### Adafruit Pybadge - Finish Level 3
+
+![AdafruityBadgeArcade](./images/AdafruityBadgeArcade.jpg)
 
 - Pick one of the Adafruit Pybadges
 - Connect it to something that can provide 5V with USB
@@ -92,7 +94,7 @@ You can finish the executing by pressing Enter in the terminal where you execute
 ### Pybadge
 
 - Develop ["Bouncing balls"](https://learn.adafruit.com/circuitpython-stage-game-library/bouncing-balls) with CircuitPython
-- Develop Flappy Bird with CircuitPython [Assets](https://megacrash.itch.io/flappy-bird-assets?download)
+- Develop Flappy Bird with CircuitPython ([Assets](https://megacrash.itch.io/flappy-bird-assets?download))
 
 
 
